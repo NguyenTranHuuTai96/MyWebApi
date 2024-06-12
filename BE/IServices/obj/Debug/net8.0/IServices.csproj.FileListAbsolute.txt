@@ -1,0 +1,15 @@
+F:\WebAPIArchitecture\BE\IServices\bin\Debug\net8.0\IServices.deps.json
+F:\WebAPIArchitecture\BE\IServices\bin\Debug\net8.0\IServices.dll
+F:\WebAPIArchitecture\BE\IServices\bin\Debug\net8.0\IServices.pdb
+F:\WebAPIArchitecture\BE\IServices\bin\Debug\net8.0\ViewModels.dll
+F:\WebAPIArchitecture\BE\IServices\bin\Debug\net8.0\ViewModels.pdb
+F:\WebAPIArchitecture\BE\IServices\obj\Debug\net8.0\IServices.csproj.AssemblyReference.cache
+F:\WebAPIArchitecture\BE\IServices\obj\Debug\net8.0\IServices.GeneratedMSBuildEditorConfig.editorconfig
+F:\WebAPIArchitecture\BE\IServices\obj\Debug\net8.0\IServices.AssemblyInfoInputs.cache
+F:\WebAPIArchitecture\BE\IServices\obj\Debug\net8.0\IServices.AssemblyInfo.cs
+F:\WebAPIArchitecture\BE\IServices\obj\Debug\net8.0\IServices.csproj.CoreCompileInputs.cache
+F:\WebAPIArchitecture\BE\IServices\obj\Debug\net8.0\IServices.csproj.Up2Date
+F:\WebAPIArchitecture\BE\IServices\obj\Debug\net8.0\IServices.dll
+F:\WebAPIArchitecture\BE\IServices\obj\Debug\net8.0\refint\IServices.dll
+F:\WebAPIArchitecture\BE\IServices\obj\Debug\net8.0\IServices.pdb
+F:\WebAPIArchitecture\BE\IServices\obj\Debug\net8.0\ref\IServices.dll

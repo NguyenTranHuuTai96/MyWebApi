@@ -1,0 +1,12 @@
+F:\WebAPIArchitecture\BE\ViewModels\bin\Debug\net8.0\ViewModels.deps.json
+F:\WebAPIArchitecture\BE\ViewModels\bin\Debug\net8.0\ViewModels.dll
+F:\WebAPIArchitecture\BE\ViewModels\bin\Debug\net8.0\ViewModels.pdb
+F:\WebAPIArchitecture\BE\ViewModels\obj\Debug\net8.0\ViewModels.csproj.AssemblyReference.cache
+F:\WebAPIArchitecture\BE\ViewModels\obj\Debug\net8.0\ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+F:\WebAPIArchitecture\BE\ViewModels\obj\Debug\net8.0\ViewModels.AssemblyInfoInputs.cache
+F:\WebAPIArchitecture\BE\ViewModels\obj\Debug\net8.0\ViewModels.AssemblyInfo.cs
+F:\WebAPIArchitecture\BE\ViewModels\obj\Debug\net8.0\ViewModels.csproj.CoreCompileInputs.cache
+F:\WebAPIArchitecture\BE\ViewModels\obj\Debug\net8.0\ViewModels.dll
+F:\WebAPIArchitecture\BE\ViewModels\obj\Debug\net8.0\refint\ViewModels.dll
+F:\WebAPIArchitecture\BE\ViewModels\obj\Debug\net8.0\ViewModels.pdb
+F:\WebAPIArchitecture\BE\ViewModels\obj\Debug\net8.0\ref\ViewModels.dll
