@@ -23,5 +23,18 @@ namespace Domain.Optimize
             else
                 return null;
         }
+        public static Dictionary<string, object> ToDictionary(object model)
+        {
+            try
+            {
+                var dict = model.GetType().GetProperties().ToDictionary(x => x.Name, x => x.GetValue(model));
+                return dict;
+            }
+            catch (Exception ex)
+            {
+                var message = ex.Message;
+                return null;
+            }
+        }
     }
 }

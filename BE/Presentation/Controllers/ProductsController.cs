@@ -38,7 +38,7 @@ namespace Presentation.Controllers
         }
         [HttpGet]
         [Route("get-by-id")]
-        public IActionResult GetDatabyID(int id)
+        public IActionResult GetDataByID(int id)
         {
             try
             {

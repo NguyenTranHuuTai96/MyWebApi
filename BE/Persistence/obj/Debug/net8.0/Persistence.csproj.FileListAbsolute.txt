@@ -13,3 +13,4 @@ F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\Persistence.dll
 F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\refint\Persistence.dll
 F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\Persistence.pdb
 F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json

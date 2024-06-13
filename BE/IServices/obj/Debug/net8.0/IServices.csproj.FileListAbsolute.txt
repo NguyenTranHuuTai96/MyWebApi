@@ -13,3 +13,4 @@ F:\WebAPIArchitecture\BE\IServices\obj\Debug\net8.0\IServices.dll
 F:\WebAPIArchitecture\BE\IServices\obj\Debug\net8.0\refint\IServices.dll
 F:\WebAPIArchitecture\BE\IServices\obj\Debug\net8.0\IServices.pdb
 F:\WebAPIArchitecture\BE\IServices\obj\Debug\net8.0\ref\IServices.dll
+F:\WebAPIArchitecture\BE\IServices\obj\Debug\net8.0\IServices.sourcelink.json

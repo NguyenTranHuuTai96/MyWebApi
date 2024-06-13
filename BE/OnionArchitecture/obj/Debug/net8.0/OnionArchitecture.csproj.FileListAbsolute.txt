@@ -162,3 +162,4 @@ F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.pd
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.genruntimeconfig.cache
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\ref\OnionArchitecture.dll
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.MvcApplicationPartsAssemblyInfo.cs
+F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.sourcelink.json

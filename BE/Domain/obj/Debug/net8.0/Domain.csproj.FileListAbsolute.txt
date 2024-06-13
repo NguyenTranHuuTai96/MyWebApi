@@ -10,3 +10,4 @@ F:\WebAPIArchitecture\BE\Domain\obj\Debug\net8.0\Domain.dll
 F:\WebAPIArchitecture\BE\Domain\obj\Debug\net8.0\refint\Domain.dll
 F:\WebAPIArchitecture\BE\Domain\obj\Debug\net8.0\Domain.pdb
 F:\WebAPIArchitecture\BE\Domain\obj\Debug\net8.0\ref\Domain.dll
+F:\WebAPIArchitecture\BE\Domain\obj\Debug\net8.0\Domain.sourcelink.json

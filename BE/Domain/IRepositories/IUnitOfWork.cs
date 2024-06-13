@@ -13,6 +13,7 @@ namespace Domain.IRepositories
         ITokenRepository _tokenRepository { get;  }
         IUserRepository _userRepository { get;  }
         IUserIdentityRepository _userIdentityRepository { get; }
+        ICategoryRepository _categoryRepository { get; }
 
         void Commit();
         Task CommitAsync();

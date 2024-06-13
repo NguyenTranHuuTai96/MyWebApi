@@ -10,3 +10,4 @@ F:\WebAPIArchitecture\BE\ViewModels\obj\Debug\net8.0\ViewModels.dll
 F:\WebAPIArchitecture\BE\ViewModels\obj\Debug\net8.0\refint\ViewModels.dll
 F:\WebAPIArchitecture\BE\ViewModels\obj\Debug\net8.0\ViewModels.pdb
 F:\WebAPIArchitecture\BE\ViewModels\obj\Debug\net8.0\ref\ViewModels.dll
+F:\WebAPIArchitecture\BE\ViewModels\obj\Debug\net8.0\ViewModels.sourcelink.json

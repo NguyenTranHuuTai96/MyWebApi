@@ -32,8 +32,34 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Presentation.Controllers.CategoryController",
+    "Method": "GetCate",
+    "RelativePath": "Category/list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pq_curpage",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "pq_rpp",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "pq_filter",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Presentation.Controllers.ProductsController",
-    "Method": "GetDatabyID",
+    "Method": "GetDataByID",
     "RelativePath": "Products/get-by-id",
     "HttpMethod": "GET",
     "IsController": true,

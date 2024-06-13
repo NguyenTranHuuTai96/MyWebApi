@@ -17,6 +17,7 @@ namespace Persistence.Repository
         private readonly PasswordHasher<UserIdentity> _passwordHasher;
         private readonly PasswordValidator<UserIdentity> _passwordValidator;
         public IProductRepository _productRepository { get; private set; }
+        public ICategoryRepository _categoryRepository { get; private set; }
         public IUserRepository _userRepository { get; private set; }
         public ITokenRepository _tokenRepository { get; private set; }
         public IUserIdentityRepository _userIdentityRepository { get; private set; }
@@ -30,19 +31,23 @@ namespace Persistence.Repository
              IProductRepository productRepository,
              IUserRepository userRepository,
              ITokenRepository tokenRepository,
-             IUserIdentityRepository userIdentityRepository
+             IUserIdentityRepository userIdentityRepository,
+             ICategoryRepository categoryRepository
              )
         {
             _myDbContext = myDbContext;
             _userManager = userManager;
             _passwordHasher = passwordHasher;
-            _passwordValidator = passwordValidator;
 
-            //this._userRepository = _userRepository ??= new UserRepository(_myDbContext);
-            //this._productRepository = _productRepository ??= new ProductRepository(_myDbContext);
-            //this._tokenRepository = _tokenRepository ??= new TokenRepository(_myDbContext);
-            //this._userIdentityRepository = _userIdentityRepository ??= new UserIdentityRepository(_myDbContext, _userManager, _passwordHasher, _passwordValidator);
+            _passwordValidator = passwordValidator;
+            _productRepository = productRepository;
+            _categoryRepository = categoryRepository;
+            _tokenRepository = tokenRepository;
+            _userIdentityRepository= userIdentityRepository;
+
+
             _productRepository = _productRepository ?? productRepository;
+            _categoryRepository = _categoryRepository ?? categoryRepository;
             _userRepository = _userRepository ?? userRepository;
             _tokenRepository = _tokenRepository ?? tokenRepository;
             _userIdentityRepository = _userIdentityRepository ?? userIdentityRepository;

@@ -3,23 +3,20 @@
   "WorkspaceRootPath": "F:\\WebAPIArchitecture\\BE\\OnionArchitecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA00FED1-0357-4709-9205-FBC1441B5797}|..\\Persistence\\Persistence.csproj|f:\\webapiarchitecture\\be\\persistence\\context\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C75751CE-D5C4-4CFE-AE74-CD1635749A2D}|OnionArchitecture.csproj|f:\\webapiarchitecture\\be\\onionarchitecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C75751CE-D5C4-4CFE-AE74-CD1635749A2D}|OnionArchitecture.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1D8FD96-8BF4-41D2-A97E-B112F78E7F49}|..\\Presentation\\Presentation.csproj|f:\\webapiarchitecture\\be\\presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76F6A5EB-5F5F-4A90-9C6C-33C6C5F1FF2A}|..\\ViewModels\\ViewModels.csproj|f:\\webapiarchitecture\\be\\viewmodels\\pagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1D8FD96-8BF4-41D2-A97E-B112F78E7F49}|..\\Presentation\\Presentation.csproj|f:\\webapiarchitecture\\be\\presentation\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1D8FD96-8BF4-41D2-A97E-B112F78E7F49}|..\\Presentation\\Presentation.csproj|f:\\webapiarchitecture\\be\\presentation\\controllers\\userauthenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C75751CE-D5C4-4CFE-AE74-CD1635749A2D}|OnionArchitecture.csproj|f:\\webapiarchitecture\\be\\onionarchitecture\\configuredependencyinjection\\configuredependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75751CE-D5C4-4CFE-AE74-CD1635749A2D}|OnionArchitecture.csproj|solutionrelative:configuredependencyinjection\\configuredependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1D8FD96-8BF4-41D2-A97E-B112F78E7F49}|..\\Presentation\\Presentation.csproj|f:\\webapiarchitecture\\be\\presentation\\controllers\\useridentitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1D8FD96-8BF4-41D2-A97E-B112F78E7F49}|..\\Presentation\\Presentation.csproj|f:\\webapiarchitecture\\be\\presentation\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76F6A5EB-5F5F-4A90-9C6C-33C6C5F1FF2A}|..\\ViewModels\\ViewModels.csproj|f:\\webapiarchitecture\\be\\viewmodels\\querymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,78 +26,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyDbContext.cs",
-              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\Persistence\\Context\\MyDbContext.cs",
-              "RelativeDocumentMoniker": "..\\Persistence\\Context\\MyDbContext.cs",
-              "ToolTip": "F:\\WebAPIArchitecture\\BE\\Persistence\\Context\\MyDbContext.cs",
-              "RelativeToolTip": "..\\Persistence\\Context\\MyDbContext.cs",
+              "DocumentIndex": 4,
+              "Title": "QueryModel.cs",
+              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\ViewModels\\QueryModel.cs",
+              "RelativeDocumentMoniker": "..\\ViewModels\\QueryModel.cs",
+              "ToolTip": "F:\\WebAPIArchitecture\\BE\\ViewModels\\QueryModel.cs",
+              "RelativeToolTip": "..\\ViewModels\\QueryModel.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T07:17:50.248Z",
+              "WhenOpened": "2024-06-13T16:35:41.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\OnionArchitecture\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\WebAPIArchitecture\\BE\\OnionArchitecture\\Program.cs",
-              "RelativeToolTip": "Program.cs",
+              "DocumentIndex": 0,
+              "Title": "PagingQuery.cs",
+              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\ViewModels\\PagingQuery.cs",
+              "RelativeDocumentMoniker": "..\\ViewModels\\PagingQuery.cs",
+              "ToolTip": "F:\\WebAPIArchitecture\\BE\\ViewModels\\PagingQuery.cs",
+              "RelativeToolTip": "..\\ViewModels\\PagingQuery.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T07:16:57.01Z",
+              "WhenOpened": "2024-06-13T16:02:23.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "..\\Presentation\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "..\\Presentation\\Controllers\\AuthenticationController.cs",
+              "Title": "ConfigureDependencyInjection.cs",
+              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\OnionArchitecture\\ConfigureDependencyInjection\\ConfigureDependencyInjection.cs",
+              "RelativeDocumentMoniker": "ConfigureDependencyInjection\\ConfigureDependencyInjection.cs",
+              "ToolTip": "F:\\WebAPIArchitecture\\BE\\OnionArchitecture\\ConfigureDependencyInjection\\ConfigureDependencyInjection.cs",
+              "RelativeToolTip": "ConfigureDependencyInjection\\ConfigureDependencyInjection.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T06:50:04.546Z",
+              "WhenOpened": "2024-06-13T15:59:38.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "..\\Presentation\\Controllers\\ProductsController.cs",
               "ToolTip": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "..\\Presentation\\Controllers\\ProductsController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T06:49:15.723Z",
+              "WhenOpened": "2024-06-13T15:56:15.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserIdentityController.cs",
-              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\UserIdentityController.cs",
-              "RelativeDocumentMoniker": "..\\Presentation\\Controllers\\UserIdentityController.cs",
-              "ToolTip": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\UserIdentityController.cs",
-              "RelativeToolTip": "..\\Presentation\\Controllers\\UserIdentityController.cs",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "..\\Presentation\\Controllers\\CategoryController.cs",
+              "ToolTip": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "..\\Presentation\\Controllers\\CategoryController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T06:47:52.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserAuthenticationController.cs",
-              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\UserAuthenticationController.cs",
-              "RelativeDocumentMoniker": "..\\Presentation\\Controllers\\UserAuthenticationController.cs",
-              "ToolTip": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\UserAuthenticationController.cs",
-              "RelativeToolTip": "..\\Presentation\\Controllers\\UserAuthenticationController.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T06:47:48.802Z",
+              "WhenOpened": "2024-06-13T15:55:29.678Z",
               "EditorCaption": ""
             }
           ]

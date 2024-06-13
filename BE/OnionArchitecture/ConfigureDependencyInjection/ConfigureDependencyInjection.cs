@@ -19,6 +19,7 @@ namespace OnionArchitecture.ConfigureDependencyInjection
         {
             //DI Application Repo
             service.AddScoped<IProductRepository, ProductRepository>();
+            service.AddScoped<ICategoryRepository, CategoryRepository>();
             service.AddScoped<IUserRepository, UserRepository>();
             service.AddScoped<ITokenRepository, TokenRepository>();
             service.AddScoped<IUserIdentityRepository, UserIdentityRepository>();
@@ -26,6 +27,7 @@ namespace OnionArchitecture.ConfigureDependencyInjection
 
             //DI Application Services
             service.AddScoped<IProductServices, ProductServices>();
+            service.AddScoped<ICategoriesServices, CategoriesServices>();
             service.AddScoped<IUserServices, UserServices>();
             service.AddScoped<ITokenServices, TokenServices>();
             service.AddScoped<IUserIdentityServices, UserIdentityServices>();
