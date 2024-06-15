@@ -146,7 +146,9 @@ F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.Ge
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.AssemblyInfoInputs.cache
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.AssemblyInfo.cs
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.csproj.CoreCompileInputs.cache
+F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.MvcApplicationPartsAssemblyInfo.cs
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.MvcApplicationPartsAssemblyInfo.cache
+F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.sourcelink.json
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\staticwebassets.build.json
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\staticwebassets.development.json
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\staticwebassets\msbuild.OnionArchitecture.Microsoft.AspNetCore.StaticWebAssets.props
@@ -161,5 +163,3 @@ F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\refint\OnionArchitec
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.pdb
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.genruntimeconfig.cache
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\ref\OnionArchitecture.dll
-F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.MvcApplicationPartsAssemblyInfo.cs
-F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.sourcelink.json

@@ -18,7 +18,7 @@ namespace ViewModels
         {
             this.total = fullList?.Count() ?? 0;
             if (this.total > pageSize && page.HasValue && page > 0 && pageSize.HasValue && pageSize > 0)
-                this.data = fullList?.Skip((page.Value - 1) * pageSize.Value).Take(pageSize.Value)?.ToList();
+                this.data = fullList?.Skip((page.Value - 1) * pageSize.Value).Take(pageSize.Value)?.ToList()?? new List<Model>();
             else
                 this.data = fullList ?? new List<Model>();
             this.resultMsg = this.total != 0 ? "Success" : "Nodata";

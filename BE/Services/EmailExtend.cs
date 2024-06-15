@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ViewModels;
 using Microsoft.AspNetCore.Hosting;
+using System.IO;
 
 namespace Services
 {
@@ -38,11 +39,11 @@ namespace Services
                 mailMessage.Subject = emailRequest.Subject;
                 mailMessage.Body = emailRequest.Content;
 
-                if (emailRequest.AttachmentFilePaths?.Length > 0)
+                if (emailRequest.AttachmentFile?.Count > 0)
                 {
-                    foreach (var path in emailRequest.AttachmentFilePaths)
+                    foreach (var attach in emailRequest.AttachmentFile)
                     {
-                        Attachment attachment = new Attachment(path);
+                        Attachment attachment = new Attachment(new MemoryStream(attach.Stream),attach.ContentType);
 
                         mailMessage.Attachments.Add(attachment);
                     }
@@ -66,6 +67,5 @@ namespace Services
 
             return content;
         }
-
     }
 }

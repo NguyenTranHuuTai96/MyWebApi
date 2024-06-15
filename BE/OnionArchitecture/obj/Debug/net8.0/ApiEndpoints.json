@@ -134,9 +134,24 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "emailrq",
-        "Type": "ViewModels.EmailRequest",
-        "IsRequired": true
+        "Name": "To",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Subject",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Content",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AttachmentFile",
+        "Type": "System.Collections.Generic.List\u00601[[ViewModels.MailAttachment, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

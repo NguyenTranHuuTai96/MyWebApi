@@ -8,9 +8,9 @@ F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBui
 F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
 F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
 F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
 F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
 F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\Persistence.dll
 F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\refint\Persistence.dll
 F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\Persistence.pdb
 F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\ref\Persistence.dll
-F:\WebAPIArchitecture\BE\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json

@@ -36,16 +36,9 @@ namespace Persistence.Repository
              )
         {
             _myDbContext = myDbContext;
-            _userManager = userManager;
-            _passwordHasher = passwordHasher;
-
-            _passwordValidator = passwordValidator;
-            _productRepository = productRepository;
-            _categoryRepository = categoryRepository;
-            _tokenRepository = tokenRepository;
-            _userIdentityRepository= userIdentityRepository;
-
-
+            _userManager = _userManager ?? userManager;
+            _passwordHasher = _passwordHasher ?? passwordHasher;
+            _passwordValidator = _passwordValidator?? passwordValidator;
             _productRepository = _productRepository ?? productRepository;
             _categoryRepository = _categoryRepository ?? categoryRepository;
             _userRepository = _userRepository ?? userRepository;

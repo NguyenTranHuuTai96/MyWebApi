@@ -6,8 +6,8 @@ F:\WebAPIArchitecture\BE\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorCo
 F:\WebAPIArchitecture\BE\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
 F:\WebAPIArchitecture\BE\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
 F:\WebAPIArchitecture\BE\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+F:\WebAPIArchitecture\BE\Domain\obj\Debug\net8.0\Domain.sourcelink.json
 F:\WebAPIArchitecture\BE\Domain\obj\Debug\net8.0\Domain.dll
 F:\WebAPIArchitecture\BE\Domain\obj\Debug\net8.0\refint\Domain.dll
 F:\WebAPIArchitecture\BE\Domain\obj\Debug\net8.0\Domain.pdb
 F:\WebAPIArchitecture\BE\Domain\obj\Debug\net8.0\ref\Domain.dll
-F:\WebAPIArchitecture\BE\Domain\obj\Debug\net8.0\Domain.sourcelink.json

@@ -3,20 +3,19 @@
   "WorkspaceRootPath": "F:\\WebAPIArchitecture\\BE\\OnionArchitecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76F6A5EB-5F5F-4A90-9C6C-33C6C5F1FF2A}|..\\ViewModels\\ViewModels.csproj|f:\\webapiarchitecture\\be\\viewmodels\\pagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA8C56AD-DE0B-46BA-BD16-63D3C0D4E0C5}|..\\Services\\Services.csproj|f:\\webapiarchitecture\\be\\services\\emailextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA8C56AD-DE0B-46BA-BD16-63D3C0D4E0C5}|..\\Services\\Services.csproj|f:\\webapiarchitecture\\be\\services\\useridentityservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1D8FD96-8BF4-41D2-A97E-B112F78E7F49}|..\\Presentation\\Presentation.csproj|f:\\webapiarchitecture\\be\\presentation\\controllers\\useridentitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1D8FD96-8BF4-41D2-A97E-B112F78E7F49}|..\\Presentation\\Presentation.csproj|f:\\webapiarchitecture\\be\\presentation\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75751CE-D5C4-4CFE-AE74-CD1635749A2D}|OnionArchitecture.csproj|f:\\webapiarchitecture\\be\\onionarchitecture\\configuredependencyinjection\\configuredependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C75751CE-D5C4-4CFE-AE74-CD1635749A2D}|OnionArchitecture.csproj|solutionrelative:configuredependencyinjection\\configuredependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1D8FD96-8BF4-41D2-A97E-B112F78E7F49}|..\\Presentation\\Presentation.csproj|f:\\webapiarchitecture\\be\\presentation\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76F6A5EB-5F5F-4A90-9C6C-33C6C5F1FF2A}|..\\ViewModels\\ViewModels.csproj|f:\\webapiarchitecture\\be\\viewmodels\\querymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1D8FD96-8BF4-41D2-A97E-B112F78E7F49}|..\\Presentation\\Presentation.csproj|f:\\webapiarchitecture\\be\\presentation\\controllers\\userauthenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,66 +25,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QueryModel.cs",
-              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\ViewModels\\QueryModel.cs",
-              "RelativeDocumentMoniker": "..\\ViewModels\\QueryModel.cs",
-              "ToolTip": "F:\\WebAPIArchitecture\\BE\\ViewModels\\QueryModel.cs",
-              "RelativeToolTip": "..\\ViewModels\\QueryModel.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T16:35:41.972Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PagingQuery.cs",
-              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\ViewModels\\PagingQuery.cs",
-              "RelativeDocumentMoniker": "..\\ViewModels\\PagingQuery.cs",
-              "ToolTip": "F:\\WebAPIArchitecture\\BE\\ViewModels\\PagingQuery.cs",
-              "RelativeToolTip": "..\\ViewModels\\PagingQuery.cs",
+              "DocumentIndex": 4,
+              "Title": "UserAuthenticationController.cs",
+              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\UserAuthenticationController.cs",
+              "RelativeDocumentMoniker": "..\\Presentation\\Controllers\\UserAuthenticationController.cs",
+              "ToolTip": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\UserAuthenticationController.cs",
+              "RelativeToolTip": "..\\Presentation\\Controllers\\UserAuthenticationController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T16:02:23.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T21:48:48.925Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ConfigureDependencyInjection.cs",
-              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\OnionArchitecture\\ConfigureDependencyInjection\\ConfigureDependencyInjection.cs",
-              "RelativeDocumentMoniker": "ConfigureDependencyInjection\\ConfigureDependencyInjection.cs",
-              "ToolTip": "F:\\WebAPIArchitecture\\BE\\OnionArchitecture\\ConfigureDependencyInjection\\ConfigureDependencyInjection.cs",
-              "RelativeToolTip": "ConfigureDependencyInjection\\ConfigureDependencyInjection.cs",
+              "Title": "UserIdentityController.cs",
+              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\UserIdentityController.cs",
+              "RelativeDocumentMoniker": "..\\Presentation\\Controllers\\UserIdentityController.cs",
+              "ToolTip": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\UserIdentityController.cs",
+              "RelativeToolTip": "..\\Presentation\\Controllers\\UserIdentityController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:59:38.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T04:10:04.751Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "..\\Presentation\\Controllers\\ProductsController.cs",
               "ToolTip": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "..\\Presentation\\Controllers\\ProductsController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:56:15.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T04:07:27.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "..\\Presentation\\Controllers\\CategoryController.cs",
-              "ToolTip": "F:\\WebAPIArchitecture\\BE\\Presentation\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "..\\Presentation\\Controllers\\CategoryController.cs",
+              "DocumentIndex": 1,
+              "Title": "UserIdentityServices.cs",
+              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\Services\\UserIdentityServices.cs",
+              "RelativeDocumentMoniker": "..\\Services\\UserIdentityServices.cs",
+              "ToolTip": "F:\\WebAPIArchitecture\\BE\\Services\\UserIdentityServices.cs",
+              "RelativeToolTip": "..\\Services\\UserIdentityServices.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:55:29.678Z",
+              "WhenOpened": "2024-06-14T03:45:22.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailExtend.cs",
+              "DocumentMoniker": "F:\\WebAPIArchitecture\\BE\\Services\\EmailExtend.cs",
+              "RelativeDocumentMoniker": "..\\Services\\EmailExtend.cs",
+              "ToolTip": "F:\\WebAPIArchitecture\\BE\\Services\\EmailExtend.cs",
+              "RelativeToolTip": "..\\Services\\EmailExtend.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T03:14:50.318Z",
               "EditorCaption": ""
             }
           ]

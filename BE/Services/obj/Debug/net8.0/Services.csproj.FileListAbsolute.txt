@@ -12,9 +12,9 @@ F:\WebAPIArchitecture\BE\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEdit
 F:\WebAPIArchitecture\BE\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
 F:\WebAPIArchitecture\BE\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
 F:\WebAPIArchitecture\BE\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+F:\WebAPIArchitecture\BE\Services\obj\Debug\net8.0\Services.sourcelink.json
 F:\WebAPIArchitecture\BE\Services\obj\Debug\net8.0\Services.csproj.Up2Date
 F:\WebAPIArchitecture\BE\Services\obj\Debug\net8.0\Services.dll
 F:\WebAPIArchitecture\BE\Services\obj\Debug\net8.0\refint\Services.dll
 F:\WebAPIArchitecture\BE\Services\obj\Debug\net8.0\Services.pdb
 F:\WebAPIArchitecture\BE\Services\obj\Debug\net8.0\ref\Services.dll
-F:\WebAPIArchitecture\BE\Services\obj\Debug\net8.0\Services.sourcelink.json

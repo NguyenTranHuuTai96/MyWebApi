@@ -1,5 +1,6 @@
 ﻿using IServices;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 using System.Threading;
@@ -74,8 +75,22 @@ namespace Presentation.Controllers
           
         }
         [HttpPost("send-mail")]
-        public async Task<IActionResult> SendMail(CancellationToken cancellation, EmailRequest emailrq)
+        public async Task<IActionResult> SendMail(CancellationToken cancellation, [FromForm] EmailRequest emailrq)
         {
+            List<MailAttachment> mailAttachment = new List<MailAttachment>();
+            IFormFileCollection files = Request.Form.Files;
+            if (files.Count > 0)
+            {
+                foreach (var file in files)
+                {
+                    mailAttachment.Add(new MailAttachment()
+                    {
+                        ContentType = Path.GetFileName(file.FileName),
+                        Stream = (new BinaryReader(file.OpenReadStream())).ReadBytes((int)file.Length),
+                    });
+                }
+            }
+            emailrq.AttachmentFile = mailAttachment;
             await _emailExtend.SendEmailAsync(cancellation, emailrq);
             return Ok();
         }
