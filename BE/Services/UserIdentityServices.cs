@@ -42,26 +42,12 @@ namespace Services
             var rsIdentity = await _unitOfWork._userIdentityRepository.AddRoleForUser(userIdentity);
             return rsIdentity;
         }
-        // get model UserIdentityModel
-        //public async Task<UserIdentityModel> CheckLoginUserIdentityServices(string username, string password)
-        //{
-        //    var dataUserIdentity =await _unitOfWork._userIdentityRepository.CheckLoginUserIdentityEF(username, password);
-        //    if (dataUserIdentity is null ) return null;
-        //    var userIdentityModel = _mapper.Map<UserIdentityModel>(dataUserIdentity);
-        //    return userIdentityModel;
-        //}
 
-        public async Task<string> TokenMailConfirm(UserIdentityModel userIdentityModel)
-        {
-            UserIdentity userIdentity = await _unitOfWork._userIdentityRepository.CheckLoginUserIdentityEF(userIdentityModel.UserName, userIdentityModel.Password);
-            string token = await _unitOfWork._userIdentityRepository.GenerateEmailConfirmationToken(userIdentity);
-            return token;
-        }
         public async Task<ModelConfirmMail> SetDataModelConfirmMail(UserIdentityModel userIdentityModel)
         {
             ModelConfirmMail modelConfirmMail = new ModelConfirmMail();
             UserIdentity userIdentity = await _unitOfWork._userIdentityRepository.CheckLoginUserIdentityEF(userIdentityModel.UserName, userIdentityModel.Password);
-            string TokenConfirmMail = await TokenMailConfirm(userIdentityModel);
+            string TokenConfirmMail = await _unitOfWork._userIdentityRepository.GenerateEmailConfirmationToken(userIdentity);
             modelConfirmMail.TokenConfirmMail = TokenConfirmMail;
             modelConfirmMail.IdUser = userIdentity.Id;
             return modelConfirmMail;
@@ -80,16 +66,14 @@ namespace Services
                 Content = body
             });
         }
-        public async Task<UserIdentityModel> GetObjectByID(string userId)
+
+        public async Task<IdentityResult> UpdateConfirmMail(string IdUser, string TokenConfirmMail)
         {
-            UserIdentity userIdentity = await _unitOfWork._userIdentityRepository.GetObjectUserIdentity(userId);
-            var userIdentityModel = _mapper.Map<UserIdentityModel>(userIdentity);
-            return userIdentityModel;
-        }
-        public async Task<IdentityResult> UpdateConfirmMail(UserIdentityModel userIdentityModel, string TokenConfirmMail)
-        {
-            UserIdentity userIdentity = await _unitOfWork._userIdentityRepository.CheckLoginUserIdentityEF(userIdentityModel.UserName, userIdentityModel.Password);
-            IdentityResult identityResult = await _unitOfWork._userIdentityRepository.ConfirmMail(userIdentity, TokenConfirmMail);
+            IdentityResult identityResult = new IdentityResult();
+            UserIdentity userIdentity = await _unitOfWork._userIdentityRepository.GetObjectUserIdentity(IdUser);
+            if (userIdentity is null) return identityResult;
+            if (userIdentity.EmailConfirmed) return identityResult;
+            identityResult = await _unitOfWork._userIdentityRepository.ConfirmMail(userIdentity, TokenConfirmMail);
             return identityResult;
         }
 

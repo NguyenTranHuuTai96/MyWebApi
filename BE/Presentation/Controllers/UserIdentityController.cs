@@ -56,14 +56,10 @@ namespace Presentation.Controllers
         [HttpGet("confirm-email")]
         public async Task<IActionResult> ConfirmEmail(string IdUser , string TokenConfirmMail)
         {
-            UserIdentityModel userIdentityModel = await _userIdentityServices.GetObjectByID(IdUser);
 
-            if (userIdentityModel is null)  return BadRequest("Account is exist in the system");
-            if (userIdentityModel.EmailConfirmed)  return Ok("The email has already been confirmed");
+            var identityResult = await _userIdentityServices.UpdateConfirmMail(IdUser, TokenConfirmMail);
 
-            var identityResult = await _userIdentityServices.UpdateConfirmMail(userIdentityModel, TokenConfirmMail);
-
-            if (!identityResult.Succeeded) return BadRequest("Confirm email failed.");
+            if (!identityResult.Succeeded) return BadRequest("Error");
           
             return Ok("Your account has been actived");
             

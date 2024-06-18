@@ -163,3 +163,4 @@ F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\refint\OnionArchitec
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.pdb
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\OnionArchitecture.genruntimeconfig.cache
 F:\WebAPIArchitecture\BE\OnionArchitecture\obj\Debug\net8.0\ref\OnionArchitecture.dll
+F:\WebAPIArchitecture\BE\OnionArchitecture\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll

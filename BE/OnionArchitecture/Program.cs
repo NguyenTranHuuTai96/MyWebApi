@@ -2,6 +2,7 @@
 using Domain.Entities;
 using Domain.ModelEmail;
 using FluentValidation;
+using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
@@ -66,7 +67,7 @@ builder.Services.AddSwaggerGen(c =>
     });
 
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
-                {
+    {
                     {
                         new OpenApiSecurityScheme
                         {
@@ -77,11 +78,12 @@ builder.Services.AddSwaggerGen(c =>
                             }
                         },
                         new string[] { }
-        }
+      }
                 });
 });
 builder.Services.AddValidatorsFromAssemblyContaining<Program>();
 builder.Services.Configure<EmailConfig>(builder.Configuration.GetSection("MailSettings"));
+
 
 
 //builder.Services.AddNCacheDistributedCache(configuration =>
